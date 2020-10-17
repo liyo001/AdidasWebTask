@@ -1,17 +1,13 @@
 package com.crm.qa.testcases;
 
-import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.crm.qa.base.Base;
-import com.crm.qa.pages.Categories;
-import com.crm.qa.pages.PurchaseItem;
+import com.adidas.qa.base.Base;
+import com.adidas.qa.pages.Categories;
+import com.adidas.qa.pages.PurchaseItem;
 
 public class Purchase extends Base {
-
-    final static Logger logger = Logger.getLogger(Purchase.class);
-
     Categories cat;
     PurchaseItem pur;
 
